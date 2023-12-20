@@ -4,248 +4,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your Name - Android Developer</title>
+    <title>RECORIND MY JUARNEY</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&display=swap"
         rel="stylesheet">
-    <style>
-        body {
-            /* font-family: 'Arial', sans-serif; */
-            font-family: 'Poppins', sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #000;
-            color: #fff;
-        }
-
-        .container {
-            max-width: 800px;
-            margin: 0 auto;
-            padding: 20px;
-        }
-
-        header {
-            background-color: #000;
-            color: #fff;
-            text-align: center;
-            padding: 30px 0;
-        }
-
-        h1 {
-            margin: 10px 0;
-        }
-
-        p {
-            margin: 0;
-        }
-
-        img {
-            /* border-radius: 50%; */
-            max-width: 100%;
-            height: auto;
-        }
-
-        section {
-            margin: 20px 0;
-        }
-
-        .project-card {
-            background-color: #3d3939;
-            border: 1px solid #000;
-            border-radius: 5px;
-            padding: 20px;
-            margin: 20px 0;
-            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-        }
-
-        .project-card-main {
-            background-color: #474040;
-            border: 1px solid #000;
-            border-radius: 5px;
-            padding: 20px;
-            margin: 20px 0;
-            /* Adjusted margin for spacing */
-            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-            width: 100%;
-            /* Takes full width */
-            box-sizing: border-box;
-            display: block;
-            /* Ensures each card is displayed on a new line */
-        }
-
-
-
-        .project-card img {
-            max-width: 30px;
-            height: 20px;
-            border-radius: 1px;
-        }
-
-        a {
-            margin-top: 20px;
-            color: #fff;
-            text-decoration: none;
-            display: inline-block;
-            padding: 8px 16px;
-            border: 1px solid #fff;
-            border-radius: 4px;
-            transition: background-color 0.3s, color 0.3s;
-            margin-right: 10px;
-        }
-
-        a:hover {
-            background-color: #fff;
-            color: #000;
-        }
-
-        footer {
-            background-color: #000;
-            color: #fff;
-            text-align: center;
-            padding: 10px 0;
-        }
-
-        .skills {
-            list-style: none;
-            padding: 0;
-            display: flex;
-            justify-content: space-around;
-            margin: 5px 0;
-        }
-
-        .skills li {
-            text-align: center;
-        }
-
-        .social-media {
-            list-style: none;
-            padding: 0;
-            display: flex;
-            justify-content: center;
-            margin-top: 20px;
-        }
-
-        .building-projects {
-            list-style: none;
-            padding: 0;
-            display: flex;
-            justify-content: space-around;
-            margin: 5px, 0;
-        }
-
-        .building-projects li {
-            /* text-align: center; */
-            margin: 10px;
-        }
-
-        .social-media {
-            list-style: none;
-            padding: 0;
-            display: flex;
-            justify-content: center;
-            margin-top: 20px;
-        }
-
-        .social-media li {
-            margin: 0 10px;
-        }
-
-        h2 {
-            text-align: center;
-        }
-
-        .skills-logo {
-            height: 100px;
-            width: 100px;
-            display: flex;
-            align-items: center;
-        }
-
-        form {
-            margin-top: 20px;
-        }
-
-        label {
-            display: block;
-            margin-bottom: 8px;
-        }
-
-        textarea {
-            width: 100%;
-            padding: 8px;
-            margin-bottom: 12px;
-            box-sizing: border-box;
-            border: 1px solid #ccc;
-            border-radius: 4px;
-        }
-
-        button {
-            background-color: #000;
-            color: #fff;
-            padding: 10px 20px;
-            border: none;
-            border-radius: 4px;
-            cursor: pointer;
-        }
-
-        button:hover {
-            background-color: #555;
-        }
-
-        #blogs {
-            margin: 20px 0;
-        }
-
-        .blog-item {
-            display: flex;
-            margin-bottom: 20px;
-            background: #282727;
-            padding: 20px;
-            border-radius: 5px;
-        }
-
-        .blog-image {
-            max-width: 200px;
-            height: auto;
-            border-radius: 5px;
-            margin-right: 20px;
-        }
-
-        .blog-content {
-            flex-grow: 1;
-        }
-
-        .blog-content h3 {
-            margin-top: 0;
-        }
-
-        .read-more {
-            display: inline-block;
-            padding: 8px 16px;
-            background-color: #000;
-            color: #fff;
-            text-decoration: none;
-            border-radius: 4px;
-            transition: background-color 0.3s, color 0.3s;
-        }
-
-        .read-more:hover {
-            background-color: #555;
-        }
-    </style>
+    <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
-
     <header>
         <div class="container">
             <!-- <img src="https://oliver-andersen.se/wp-content/uploads/2018/03/cropped-Profile-Picture-Round-Color.png"
                 alt="Your Name" width="150"> -->
-                <img src="pro_pic/profile-pic (4).png"
+                <img src="images/profile-pic (4).png"
                 alt="Your Name" width="150">
             <h3>Hello,How are You?</h3>
-
             <h1>Building that Create Impacts.</h1>
             <p>Consectetur adipisicing elit. Accusamus, error quaerat quidem iusto vel assumenda eveniet reprehenderit
                 ipsa labore tempore id commodi! Odit earum, unde quam in eum itaque officia.</p>
@@ -256,12 +30,6 @@
     <section id="skills">
         <div class="container">
             <h2>ME EXPERIENCES</h2>
-            <!-- <ul class="skills">
-                <li>Java</li>
-                <li>Kotlin</li>
-                <li>Android Studio</li>
-                <li>UI/UX Design</li>
-            </ul> -->
             <ul class="skills">
                 <li><img src="https://img.icons8.com/?size=48&id=13679&format=png" alt=""></li>
                 <li><img src="https://img.icons8.com/?size=48&id=ZoxjA0jZDdFZ&format=png" alt=""></li>
@@ -338,34 +106,6 @@
                 <p>Description of Project 3. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                 <a href="#">Download</a>
             </div>
-
-            <!-- Dummy Projects
-            <h2>Dummy Projects</h2>
-            <div class="project-card">
-                <h3>Dummy Project 1</h3>
-                <img src="dummy1.jpg" alt="Dummy Project 1">
-                <p>Description of Dummy Project 1. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                <a href="#">Download</a>
-            </div>
-            <div class="project-card">
-                <h3>Dummy Project 2</h3>
-                <img src="dummy2.jpg" alt="Dummy Project 2">
-                <p>Description of Dummy Project 2. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                <a href="#">Download</a>
-            </div>
-            <div class="project-card">
-                <h3>Dummy Project 3</h3>
-                <img src="dummy3.jpg" alt="Dummy Project 3">
-                <p>Description of Dummy Project 3. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                <a href="#">Download</a>
-            </div>
-            <div class="project-card">
-                <h3>Dummy Project 4</h3>
-                <img src="dummy4.jpg" alt="Dummy Project 4">
-                <p>Description of Dummy Project 4. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                <a href="#">Download</a>
-            </div>
-        </div> -->
     </section>
 
     <section id="about">
@@ -375,12 +115,6 @@
                 Skilled in Java and Kotlin. Excited to contribute to the world of mobile development.</p>
         </div>
     </section>
-
-
-
-
-
-    <!-- Add this section after the #social-media section -->
 
     <section id="blogs">
         <div class="container">
@@ -443,9 +177,6 @@
         </div>
     </section>
 
-
-
-
     <section id="social-media">
         <div class="container">
             <h2>Follow Me on Social Media</h2>
@@ -470,9 +201,8 @@
         </div>
     </footer>
 
-    <script>
-        // You can add JavaScript functionality here if needed
-    </script>
+    <script src="script.js"></script>
+
 </body>
 
 </html>
